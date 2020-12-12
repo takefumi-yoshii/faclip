@@ -14,7 +14,7 @@
     "url": "https://github.com/takefumi-yoshii/faclip/issues"
   },
   "bin": {
-    "faclip": "dist/index.js"
+    "faclip": "bin/index.js"
   },
   "scripts": {
     "start": "node dist/index.js",
