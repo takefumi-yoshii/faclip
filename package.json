@@ -1,0 +1,34 @@
+{
+  "name": "faclip",
+  "version": "1.0.0",
+  "description": "The clipboard tool to convert from type definition to mock data.",
+  "main": "lib/dist/index.js",
+  "author": "takefumi-yoshii",
+  "license": "MIT",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takefumi-yoshii/faclip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/takefumi-yoshii/faclip/issues"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "codegen": "ts-node src/index.ts",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.12",
+    "ts-node": "^9.1.1"
+  },
+  "dependencies": {
+    "@types/prettier": "^2.1.5",
+    "clipboardy": "^2.3.0",
+    "commander": "^6.2.0",
+    "intermock": "^0.2.5",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  }
+}
